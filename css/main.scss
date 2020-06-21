@@ -1,0 +1,39 @@
+$containerWight: 940px;
+$baseFontSize: 16px;
+
+// colors
+$lightGray: #f5f5f5;
+
+
+// normalize
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+
+// setaps
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import "./layout.scss";
+
+// components
+@import "./components/hero.scss";
+@import "./components/header.scss";
+@import "./components/features.scss";
+@import "./components/feature.scss";
+@import "./components/btn.scss";
+@import "./components/section.scss";
+@import "./components/headline__title.scss";
+@import "./components/benefits.scss";
+@import "./components/benefit.scss";
+@import "./components/benefit__text.scss";
+@import "./components/reviews__display.scss";
+@import "./components/interactive-avatar.scss";
+@import "./components/reviews__switcher.scss";
+@import "./components/reviews__heading.scss";
+@import "./components/order-section.scss";
+@import "./components/order__title.scss";
+@import "./components/form.scss";
+@import "./components/radio.scss";
+@import "./components/fixed-menu.scss";
+
+
+
+
+
