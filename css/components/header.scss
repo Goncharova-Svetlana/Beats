@@ -5,12 +5,12 @@
 }
 
 .logo__pic {
-  width: 44px;
-  height: 44px;
+  width: rem(44px);
+  height: rem(44px);
 }
 
 .menu__item {
-  margin-right: 28px;
+  margin-right: rem(28px);
 
   &:last-child {
     margin-right: 0;
@@ -27,14 +27,14 @@
 }
 
 .phone-number {
-  font-size: 21px;
+  font-size: rem(21px);
   text-decoration: none;
   display: flex;
   align-items: center;
 }
 
 .phone-number__pic-elem {
-  width: 12px;
-  height: 12px;
-  margin-right: 2px;
+  width: rem(12px);
+  height: rem(12px);
+  margin-right: rem(2px);
 }
