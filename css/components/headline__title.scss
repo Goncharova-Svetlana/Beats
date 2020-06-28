@@ -12,4 +12,8 @@
   font-size: rem(18px);
   line-height: 1.2;
   color: #666666;
+
+  @include phones {
+    padding: 0 5%;
+  }
 }

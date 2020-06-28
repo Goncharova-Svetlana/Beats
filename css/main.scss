@@ -1,6 +1,10 @@
 $containerWight: 940px;
 $baseFontSize: 16px;
 
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
 // colors
 $lightGray: #f5f5f5;
 
@@ -33,6 +37,13 @@ $lightGray: #f5f5f5;
 @import "./components/form.scss";
 @import "./components/radio.scss";
 @import "./components/fixed-menu.scss";
+@import "./components/hamburger.scss";
+@import "./components/footer.scss";
+@import "./components/contacts.scss";
+@import "./components/section.scss";
+@import "./components/socials.scss";
+@import "./components/map.scss";
+@import "./components/map-section.scss";
 
 
 

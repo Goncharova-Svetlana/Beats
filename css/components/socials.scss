@@ -1,0 +1,24 @@
+.socials {
+  display: flex;
+  justify-content: space-between;
+  width: 176px;
+
+  // @include phones {
+  //   margin-right: 0;
+  // }
+}
+
+.social__elem {
+  vertical-align: middle;
+}
+
+.social__elem:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}

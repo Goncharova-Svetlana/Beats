@@ -1,29 +1,50 @@
 .header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
+
+.phone-number.header__phone-number {
+  @include tablets {
+    display: none;
+  }
+} 
+
 
 .logo__pic {
   width: rem(44px);
   height: rem(44px);
 }
 
+.menu {
+  margin: 0 30px;
+}
+
 .menu__item {
   margin-right: rem(28px);
+  margin-top: 10px;
 
   &:last-child {
     margin-right: 0;
   }
 }
 
+.menu {
+  @include tablets {
+    display: none;
+  }
+}
+
 .menu__list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu__link {
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .phone-number {
@@ -31,6 +52,16 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+}
+
+.phone-number__text {
+  white-space: nowrap;
+  padding-top: 5px;
+}
+
+.phone-number__pic {
+  flex-shrink: 0;
+  padding-top: 8px;
 }
 
 .phone-number__pic-elem {
