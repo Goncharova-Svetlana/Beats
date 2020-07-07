@@ -10,6 +10,10 @@
 .benefit__image {
   margin-bottom: rem(20px);
 
+  // @include tablets {
+  //   align-items: center;
+  // }
+
   @include phones {
     margin-bottom: 0;
     margin-right: rem(20px);

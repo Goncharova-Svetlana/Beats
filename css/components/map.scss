@@ -1,4 +1,5 @@
-// #map {
-//   // position: relative;
-//   background: url("../../img/map.png") center center / cover no-repeat;
-// }
+#map {
+  background: url("../../img/map.png") center center / cover no-repeat;
+  flex: 1;
+  padding-bottom: rem(107px);
+}

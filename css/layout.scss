@@ -8,6 +8,10 @@ html {
   @include phones {
     font-size: $baseFontSize - 2px;
   }
+
+  @include minphones {
+    font-size: $baseFontSize - 3px;
+  }
 }
 
 html,
