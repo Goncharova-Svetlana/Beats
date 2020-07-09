@@ -1,0 +1,44 @@
+.burger {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -1;
+  background-color: #313436;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 0;
+  transition: .5s;
+  padding: 10% 0;
+  
+}
+
+.close {
+  position: absolute;
+  top: rem(30px);
+  right: rem(25px);
+  cursor: pointer;
+  // background-image: url(/img/icons/close.svg);
+  // background-repeat: no-repeat;
+  fill: #fff;
+}
+
+.burger_opened {
+  z-index: 1;
+  opacity: 1;
+  
+}
+
+.burger__link {
+  font-size: rem(36px);
+  text-decoration: none;
+  color: #fff;
+}
+
+.burger__pic {
+  width: 20px;
+  height: 20px;
+}
