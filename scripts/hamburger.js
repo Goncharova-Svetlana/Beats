@@ -12,7 +12,6 @@ burger.addEventListener('click', function (e) {
   }
   
   if (e.target.classList.contains('burger__item')) {
-    console.log('меняем секцию');
     burger.classList.remove('burger_opened');
   }
   

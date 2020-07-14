@@ -1,0 +1,37 @@
+.products-slider {
+  position: relative;
+
+    .bx-wrapper {
+      border: 0 !important;
+      background: transparent;
+      box-shadow: none;
+      margin-bottom: 0;
+    }
+}
+
+.product-slider__arrow {
+  // background: url("/img/icons/arrow.svg") center center no-repeat;
+  // background-size: contain;
+  display: block;
+  width: rem(13px);
+  height: rem(28px);
+  position: absolute;
+  top: 50%;
+  // transform: translateY(-50%);
+  z-index: 10;
+
+  &--direction--next {
+    right: 0;
+  }
+
+  &--direction--prev {
+    left: 0;
+    transform: rotate(-180deg);
+  }
+}
+
+.arrow__pic {
+  width: rem(30px);
+  height: rem(30px);
+}
+
