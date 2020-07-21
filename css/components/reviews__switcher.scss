@@ -1,13 +1,53 @@
-.reviews__switcher {
+// .reviews__switcher {
+//   display: flex;
+//   justify-content: center;
+  
+// }
+
+// // .reviews__switcher-item {
+// //   margin-right: rem(4px);
+
+// //   &:last-child {
+// //     margin-right: 0;
+// //   }
+// // }
+
+// .reviews__switcher-item {
+//   width: rem(80px);
+//   height: rem(80px);
+//   border-radius: 50%;
+//   overflow: hidden;
+//   border: 6px solid transparent;
+//   position: relative;
+//   cursor: pointer;
+// }
+
+// .reviews__switcher-item:hover {
+//    border-color: #e01f3d;
+// }
+
+//проба
+
+.reviews-switcher {
   display: flex;
   justify-content: center;
   
 }
 
-// .reviews__switcher-item {
-//   margin-right: rem(4px);
+.reviews-switcher__item {
+  width: rem(80px);
+  height: rem(80px);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px solid transparent;
+  position: relative;
+  cursor: pointer;
+}
 
-//   &:last-child {
-//     margin-right: 0;
-//   }
-// }
+.reviews-switcher__item:hover {
+   border-color: #e01f3d;
+}
+
+.reviews-switcher__item.active {
+  border-color: #e01f3d;
+}

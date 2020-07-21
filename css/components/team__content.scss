@@ -1,0 +1,19 @@
+.team__content {
+  overflow: hidden;
+  transition: height .3s;
+  // height: rem(68px);
+  height: 0;
+}
+
+.team--version--desktop .team__content{
+  position: absolute;
+  top: 100%;
+
+    @include tablets {
+      display: none;
+    }
+}
+
+.team__content-block {
+  padding-bottom: rem(5px);
+}
